@@ -343,18 +343,18 @@ window.onload=function(){
     head8 .style.display="none"
    }
 
-  //5
-//   var head5_btn=$(".daohangzuo");
-//   var head5_left=$(".head-left1-11");
-//  for (var i = 0; i < head5_btn.length; i++) {
-//    head5_btn[i].index=i;
-//    hover(head5_btn[i],function(){
-//     head5_left[this.index].style.display="block"
-//    },function(){
-//     head5_left[this.index].style.display="none"
-//    })
-   
-// }
+  5
+  var head5_btn=$(".daohangzuo");
+  var head5_left=$(".head-left1-11");
+ for (var i = 0; i < head5_btn.length; i++) {
+   head5_btn[i].index=i;
+   hover(head5_btn[i],function(){
+    head5_left[this.index].style.display="block"
+   },function(){
+    head5_left[this.index].style.display="none"
+   })
+
+}   
 //按需加载
     var ttt=$(".tt")
     var ot=[]
