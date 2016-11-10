@@ -7,14 +7,14 @@
    callback 变化完成之后要处理的内容
 */
 /*
-   函数 colorAnimate (obj,attr,val,dur,fn,callback)
-   obj   要处理的对象
-   attr  要处理的属性  background   color
-   val   最终颜色 rbg    #
-   fn    动画的方式
-   callback  变化完成之后要处理的内容
+  函数 colorAnimate (obj,attr,val,dur,fn,callback)
+  obj   要处理的对象
+  attr  要处理的属性  background   color
+  val   最终颜色 rbg    #
+  fn    动画的方式
+  callback  变化完成之后要处理的内容
 */
-// 动画算法
+//动画算法
 /*
 		  Linear：无缓动效果(匀速运动)；
 			Quad：二次方的缓动；

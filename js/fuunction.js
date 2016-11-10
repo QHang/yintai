@@ -7,7 +7,7 @@ function getClass(selector,context){
 		var all=document.getElementsByTagName("*");
 		var newarr=[];
 		for (var i = 0; i < all.length; i++) {
-			if(all[i].className==selector){
+			if(checkstrall[i].className==selector){
 				newarr.push(all[i]);
 		};
 	}
